@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 22px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    row-gap: 10px;
+    background-color: rgb(222, 220, 219);
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+    border-radius: 15px;
+}
+
+header {
+    background-color: #5b2d806a;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+}
+
+nav {
+    background-color: #4db6ac;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+}
+
+main {
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(121, 234, 129, 0.527);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+}
+
+section {
+    display: grid;
+    row-gap: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #eaf8fcc4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+}
+
+article {
+    background-color: rgba(128, 128, 128, 0.517);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+}
+
+aside {
+    border-radius: 15px;
+    padding: 15px 15px 15px 30px;
+    background-color:#f08a8abb;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+}
+
+footer {
+    border-radius: 15px;
+    padding: 25px;
+    background-color:  #263238;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+    color: #4db6ac;
+    font-weight: 800;
+}
